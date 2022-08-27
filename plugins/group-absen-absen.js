@@ -25,7 +25,7 @@ ${list}
     await conn.sendButton(m.chat, caption, global.wm, [['Absen', `${usedPrefix}absen`], ['Cek', `${usedPrefix}cekabsen`]], m)
 }
 handler.help = ['absen']
-handler.tags = ['group']
+handler.tags = ['group','absen']
 handler.command = /^(absen|hadir)$/i
 handler.group = true
 

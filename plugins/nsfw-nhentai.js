@@ -16,6 +16,6 @@ handler.help = ['nhentai']
 handler.tags = ['nsfw']
 handler.command = /^(nhentai)$/i
 
-handler.limit = true
+handler.premium = true
 
 export default handler

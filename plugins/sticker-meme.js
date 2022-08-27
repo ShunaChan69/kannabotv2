@@ -21,6 +21,7 @@ let [atas, bawah] = text.split`|`
 handler.help = ['smeme (caption|reply media)', 'smm <url>', 'sm(caption|reply media)']
 handler.tags = ['sticker']
 handler.command = /^(smeme|sm|smm)$/i
+handler.limit = true
 
 export default handler
 

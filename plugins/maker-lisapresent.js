@@ -7,7 +7,7 @@ let handler = async (m, { conn, args }) => {
   conn.sendFile(m.chat, res, 'lisa.jpg', `ꜱᴜᴅᴀʜ ᴊᴀᴅɪ`, m, false)
 }
 handler.help = ['lisapresent'].map(v => v + ' <text>')
-handler.tags = ['nulis']
+handler.tags = ['maker']
 handler.command = /^(lisapresent)$/i
 handler.limit = true
 

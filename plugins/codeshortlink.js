@@ -18,7 +18,7 @@ let handler = async(m, { conn, args, usedPrefix }) => {
 }
 // handler.help = ['codeshortlink']
 // handler.tags = ['rpgabsen']
-handler.command = /^(kannagive)$/i
+handler.command = /^(fmbotgive)$/i
 handler.limit = true
 handler.private = false
 

@@ -7,7 +7,7 @@ let animebree = pickRandom(global.animebre)
     externalAdReply :{
     mediaUrl: '',
     mediaType: 2,
-    title: '˜”*°•.˜”*°• KATA KANNA •°*”˜.•°*”˜', 
+    title: '˜”*°•.˜”*°• KATA FMBOT •°*”˜.•°*”˜', 
     body: 'Kamu Lagi Sad Ya KAK😖',  
     sourceUrl: sgc, 
     thumbnail: fs.readFileSync('./thumbnail.jpg')

@@ -24,7 +24,7 @@ ${translation_en}
     m.reply(contoh + data + anjuran)
 }
 handler.help = ['asmaulhusna [1-99]']
-handler.tags = ['quran']
+handler.tags = ['islamic']
 handler.command = /^(asmaul(husna)?)$/i
 export default handler
 

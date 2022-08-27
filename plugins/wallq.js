@@ -10,7 +10,7 @@ let handler = async (m, { conn, text }) => {
   let json = await res.json()
   let img = json.wallpapers[Math.floor(Math.random() * json.wallpapers.length)]
   await conn.sendButton(m.chat, `
-*${htki} KANNA WALLPAPER ${htka}*
+*${htki} FMBOT WALLPAPER ${htka}*
 🔎 *Result:* ${text}
 🌎 *Source:* ᴋᴀɴɴᴀ.ᴄᴀʀᴇ
 ⛩ *ɴᴀᴍᴇ ᴜꜱᴇʀ:* ${conn.getName(m.sender)}

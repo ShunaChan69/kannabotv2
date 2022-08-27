@@ -3,9 +3,9 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix }) => {
   conn.reply(m.chat, `*${pickRandom(hacker)}*`, m)
 }
-handler.help = ['katakanna']
+handler.help = ['kataowner']
 handler.tags = ['quotes']
-handler.command = /^(katakanna)$/i
+handler.command = /^(kataowner)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false

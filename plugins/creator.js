@@ -18,24 +18,25 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 • No Telp`
 
 //------------ BIO
-let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
+let ppown = 'https://telegra.ph/file/567c3498b2f9f295d603c.jpg'
 let teksbio = `${htki} *BIODATA* ${htka}
-*ɴᴀᴍᴇ:* ⓊⒸⒽⒾⒽⒶ ⓃⒶⓇⓊⓉⓄ
-*ᴀɢᴇ:* 20ᵗʰ
-*sᴛᴀᴛᴜs:* single 
+*💌 Nama* : Mufdz Da
+*✉️ Nama RL* : Abdul Mufid
+*🕋 Agama* : Islam
+*⏰ Tanggal lahir* : Private 🥶
+*🎨 Umur* : 19
+*🧩 Hobby* : Turu
+*💬 Sifat* : Baik Hati & Tydack Sombong
+*🗺️ Tinggal* : Indonesia, Jakarta
 
-*ʙɪʀᴛʜᴅᴀʏ:* 21 Des 2002
-*ᴀᴅᴅʀᴇss:* Indonesia, Jawa Barat, Bandung
+*- - - - sᴋɪʟʟs - - - -* 
+• *JavaScript* [89.7%]
+• *Python* [13.4%]
+• *CSS* [5.1%]
+• *Html* [1.2%]
 
-*- - sᴋɪʟʟs: - -* 
-> JavaScript [89.7%]
-> Python [13.4%]
-> CSS [5.1%]
-> Html [1.2%]
-
-📷 *Instagram:* ${sig}
-🐈 *Github:* ${sgh}
-🥏 *Whatsapp* wa.me/${nomorown}
+*📷 Instagram* : \n${sig}
+🥏 *Whatsapp* : \nwa.me/${nomorown}
 
 `
   let teks = ' '

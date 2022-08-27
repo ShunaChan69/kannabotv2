@@ -11,34 +11,35 @@ let ph = '5'
 let pn = '20'
 let pp = '40'
 let pv = '50'
-let ppm = '999'
+let ppm = '70'
 let info = `
 ╭━━━━「 *SEWA* 」
-┊⫹⫺ *Hemat:* _${sh}k/grup (1 minggu)_
-┊⫹⫺ *Normal:* _${sn}k/grup (1 bulan)_
-┊⫹⫺ *Standar:* _${ss}k/grup (2 bulan)_
-┊⫹⫺ *Pro:* _${sp}k/grup (4 bulan)_                                                      
-┊⫹⫺ *Vip:* = _${sv}k/grup (6 bulan & 1 bulan *Premium*)_
+┊⫹⫺ *Hemat:*   ${sh}k/grup (1 minggu)
+┊⫹⫺ *Normal:*  ${sn}k/grup (1 bulan)
+┊⫹⫺ *Standar:* ${ss}k/grup (2 bulan)
+┊⫹⫺ *Pro:* ${sp}k/grup (4 bulan)                                                      
+┊⫹⫺ *Vip:* ${sv}k/grup (12 bulan)
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM* 」
-┊⫹⫺ *Hemat:* _${ph}k (1 minggu)_
-┊⫹⫺ *Normal:* _${pn}k (1 bulan)_
-┊⫹⫺ *Pro:* _${pp}k (4 bulan)_
-┊⫹⫺ *Vip:* _${pv}k (8 bulan)_                                               
-┊⫹⫺ *Permanent:* = _${ppm}k (Unlimited)_
+┊⫹⫺ *Hemat:*   ${ph}k (1 minggu)
+┊⫹⫺ *Normal:*  ${pn}k (1 bulan)
+┊⫹⫺ *Standar:* ${pp}k (4 bulan)
+┊⫹⫺ *Pro:* ${pv}k (8 bulan)                                               
+┊⫹⫺ *Vip:* ${ppm}k (12 bulan)
 ╰═┅═━––––––๑
 
 *⫹⫺ PAYMENT:*
 • *Pulsa:* [${ppulsa}]
 • *Dana:* [${pdana}]
+• *QRIS:* [${psaweria}]
 
 –––––– *🐾 Kebijakan* ––––––
-🗣️: Kak, Kok harganya mahal banget?
-💬: Mau tawar menawar? boleh, silahkan chat owner aja
-
 🗣️: Scam ga nih kak?
-💬: Enggalah
+💬: Enggalah, Owner 100% Tepati janji #STAYHALAL
+
+–––––– *🐾 Perhatian* ––––––
+⚠️ Jika melakukan pemesanan, tapi tidak melakukan pembayaran akan kena sanksi yaitu di *block*
 
 ▌│█║▌║▌║║▌║▌║█│▌
 `
@@ -57,9 +58,9 @@ const sections = [
 	rows: [
 	    {title: "🌟 𝗛𝗘𝗠𝗔𝗧", rowId: '.order *Paket:* HEMAT • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + ph + 'k (1 minggu)' },
 	    {title: "🌟 𝗡𝗢𝗥𝗠𝗔𝗟", rowId: '.order *Paket:* NORMAL • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + pn + 'k (1 bulan)' },
-	{title: "🌟 𝗣𝗥𝗢", rowId: '.order *Paket:* PRO • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + pp + 'k (4 bulan)' },
-	{title: "🌟 𝗩𝗜𝗣", rowId: '.order *Paket:* VIP • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + pv + 'k (8 bulan)' },
-	{title: "🌟 𝗣𝗘𝗥𝗠𝗔𝗡𝗘𝗡𝗧", rowId: '.order *Paket:* PERMANENT • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + ppm + 'k (UNLIMITED)' },
+	{title: "🌟 𝗦𝗧𝗔𝗡𝗗𝗔𝗥", rowId: '.order *Paket:* STANDAR • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + pp + 'k (4 bulan)' },
+	{title: "🌟 𝗣𝗥𝗢", rowId: '.order *Paket:* PRO • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + pv + 'k (8 bulan)' },
+	{title: "🌟 𝗩𝗜𝗣", rowId: '.order *Paket:* VIP • Premium', description: '𝗣𝗿𝗶𝗰𝗲: ' + ppm + 'k (12 bulan)' },
 	]
     },
 ]

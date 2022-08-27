@@ -6,7 +6,7 @@ handler.tags = ['tools']
 handler.command = /^asupan$/i
 handler.owner = false
 handler.mods = false
-handler.premium = false
+handler.limit = true
 handler.group = false
 handler.private = false
 

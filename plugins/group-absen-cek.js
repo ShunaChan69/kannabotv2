@@ -26,7 +26,7 @@ ${list}
 ${global.wm}`, m, { contextInfo: { mentionedJid: absen } })
 }
 handler.help = ['cekabsen']
-handler.tags = ['group']
+handler.tags = ['group','absen']
 handler.command = /^cekabsen$/i
 handler.group = true
 export default handler
